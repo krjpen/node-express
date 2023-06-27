@@ -1,8 +1,5 @@
 var http = require('http');
 var fs = require('fs');
-var cors = require('cors')
-
-app.use(cors())
 var app = http.createServer(function(request,response){
     var url = request.url;
     if(request.url == '/'){
